@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "bold-homework": {
+    "home-task": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/bold-homework",
+            "outputPath": "dist/home-task",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "bold-homework:build:production"
+              "buildTarget": "home-task:build:production"
             },
             "development": {
-              "buildTarget": "bold-homework:build:development"
+              "buildTarget": "home-task:build:development"
             }
           },
           "defaultConfiguration": "development"
